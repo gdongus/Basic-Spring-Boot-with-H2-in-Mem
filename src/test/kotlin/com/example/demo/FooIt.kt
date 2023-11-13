@@ -18,7 +18,7 @@ class FooRepositoryIntegrationTest {
 	private lateinit var repository: FooRepository
 
 	@Test
-	fun `should save and retrieve user from repository`() {
+	fun `should save and retrieve foo from repository`() {
 		val data = UUID.randomUUID().toString()
 		val foo = Foo(firstName = "John", lastName = "Doe", randomData = data)
 
