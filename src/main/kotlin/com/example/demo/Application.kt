@@ -6,8 +6,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement
 
 @SpringBootApplication
 @EnableTransactionManagement
-class DemoApplication
+class Application
 
 fun main(args: Array<String>) {
-	runApplication<DemoApplication>(*args)
+	runApplication<Application>(*args)
 }

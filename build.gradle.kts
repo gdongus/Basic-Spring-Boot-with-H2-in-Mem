@@ -23,10 +23,16 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+	implementation("org.springdoc:springdoc-openapi-ui:1.6.8")
+	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+	implementation("net.logstash.logback:logstash-logback-encoder:6.1")
+	implementation("com.neovisionaries:nv-i18n:1.28")
 
 	runtimeOnly("com.h2database:h2")
+	runtimeOnly("io.micrometer:micrometer-registry-prometheus")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.kotest:kotest-assertions-core:4.4.0")
