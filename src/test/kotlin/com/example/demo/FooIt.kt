@@ -1,5 +1,6 @@
 package com.example.demo
 
+import io.kotest.matchers.equality.shouldBeEqualToUsingFields
 import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.shouldBe
 import jakarta.transaction.Transactional
@@ -28,5 +29,6 @@ class FooRepositoryIntegrationTest {
 
 		retrievedFoo.shouldNotBeNull()
 		retrievedFoo.randomData.shouldBe(data)
+		retrievedFoo.shouldBeEqualToUsingFields(savedFoo)
 	}
 }
