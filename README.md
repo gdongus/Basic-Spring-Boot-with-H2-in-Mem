@@ -2,7 +2,7 @@
 
 This my Hetzner Cloud, Pulumi, Kotlin, Spring-Boot playground project.
 
-Struktur dieses *Repositorys*:
+Struktur dieses 'Repositorys':
 
 | Ordner                                        | Inhalt                                                         |
 | --------------------------------------------- | -------------------------------------------------------------- |
